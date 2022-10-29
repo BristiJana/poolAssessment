@@ -1,38 +1,71 @@
-.App {
+.maindiv {
+  margin-top: 40px;
   text-align: center;
+  font-family: Roboto Slab;
+  margin-left: 70px;
+  width: 40%;
 }
+.maindiv1 {
+  font-family: Roboto Slab;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 50%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainhome {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+}
+.header {
+  margin-bottom: 60px;
+  margin-top: 0px;
+  color: #101e7a;
+  text-align: left;
+}
+.mainlist {
+  text-align: left;
+  font-family: Roboto Slab;
+  border-style: solid;
+  border-width: 1px;
+
+  width: 37%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: large;
+  background-color: #0169fe;
   color: white;
+  padding-left: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #0169fe;
 }
-
-.App-link {
-  color: #61dafb;
+.icondes {
+  position: absolute;
+  left: 290px;
+  margin-bottom: 9px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.icondes1 {
+  position: absolute;
+  right: 640px;
+  margin-bottom: 9px;
+}
+@media (max-width: 1557px) {
+  .icondes {
+    position: absolute;
+    left: 220px;
+    margin-bottom: 9px;
   }
-  to {
-    transform: rotate(360deg);
+  .icondes1 {
+    position: absolute;
+    right: 560px;
+    margin-bottom: 9px;
+  }
+  .mainlist {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1302px) {
+  .icondes1 {
+    position: absolute;
+    right: 320px;
+    margin-bottom: 9px;
   }
 }
